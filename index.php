@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php echo 'hello';?>
 <html>
 
 <head>
