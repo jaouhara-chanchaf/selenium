@@ -57,10 +57,10 @@
                                         <div class="form-group">
                                             <label for="categorie">Operation</label>
                                             <select class="form-control" id="categorie">
-                                                <option>+</option>
-                                                <option>-</option>
-                                                <option>*</option>
-                                                <option>\</option>
+                                                <option value="plus">+</option>
+                                                <option value="minus">-</option>
+                                                <option value="mult">*</option>
+                                                <option value="div">\</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
