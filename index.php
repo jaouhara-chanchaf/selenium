@@ -52,11 +52,11 @@
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="first_integer">First integer</label>
-                                            <input type="number" class="form-control" id="first_integer" placeholder="">
+                                            <input type="number" class="form-control" id="first_integer" name="first_integer" placeholder="">
                                         </div>
                                         <div class="form-group">
                                             <label for="operation">Operation</label>
-                                            <select class="form-control" id="operation">
+                                            <select class="form-control" id="operation" name="operation">
                                                 <option value="plus">+</option>
                                                 <option value="minus">-</option>
                                                 <option value="mult">*</option>
@@ -65,7 +65,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="second_integer">Second integer</label>
-                                            <input type="number" class="form-control" id="second_integer" placeholder="">
+                                            <input type="number" class="form-control" id="second_integer" name="second_integer" placeholder="">
                                         </div>
                                     </div>
                                     <!-- /.card-body -->
