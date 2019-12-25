@@ -1,3 +1,26 @@
+<?php
+
+    $first_integer = $_POST['first_integer'];
+    $second_integer = $_POST['second_integer'];
+    $operation = $_POST['operation'];
+    $result = 0;
+    
+    switch ($operation) {
+    case 'plus':
+        $result = $first_integer+$second_integer;
+        break;
+    case 'minus':
+        $result = $first_integer-$second_integer;
+        break;
+    case 'mult':
+        $result = $first_integer*$second_integer;
+        break;
+    case 'div':
+        $result = $first_integer/$second_integer;
+        break;
+    }
+    
+?>
 <!DOCTYPE html>
 <html>
 
@@ -51,28 +74,12 @@
                                 <form role="form" action="calculat.php" method="post">
                                     <div class="card-body">
                                         <div class="form-group">
-                                            <label for="first_integer">First integer</label>
-                                            <input type="number" class="form-control" id="first_integer" name="first_integer" placeholder="">
+                                            <label for="first_integer">Result</label>
+                                            <input type="number" class="form-control" id="result" name="result" value="<?php echo $result;?>">
                                         </div>
-                                        <div class="form-group">
-                                            <label for="operation">Operation</label>
-                                            <select class="form-control" id="operation" name="operation">
-                                                <option value="plus">+</option>
-                                                <option value="minus">-</option>
-                                                <option value="mult">*</option>
-                                                <option value="div">\</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="second_integer">Second integer</label>
-                                            <input type="number" class="form-control" id="second_integer" name="second_integer" placeholder="">
-                                        </div>
+                                        
                                     </div>
-                                    <!-- /.card-body -->
-
-                                    <div class="card-footer">
-                                        <button type="submit" name="calculat" class="btn btn-primary">Calculat</button>
-                                    </div>
+                                   
                                 </form>
                             </div>
                             <!-- /.card -->
