@@ -52,7 +52,7 @@
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="first_integer">First integer</label>
-                                            <input type="number" class="form-control" id="first_integer" name="first_integer" placeholder="">
+                                            <input type="number" step="0.01" class="form-control" id="first_integer" name="first_integer" placeholder="">
                                         </div>
                                         <div class="form-group">
                                             <label for="operation">Operation</label>
@@ -65,7 +65,7 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="second_integer">Second integer</label>
-                                            <input type="number" class="form-control" id="second_integer" name="second_integer" placeholder="">
+                                            <input type="number" step="0.01" class="form-control" id="second_integer" name="second_integer" placeholder="">
                                         </div>
                                     </div>
                                     <!-- /.card-body -->

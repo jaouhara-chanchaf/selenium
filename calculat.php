@@ -77,7 +77,7 @@
                                     <div class="card-body">
                                         <div class="form-group">
                                             <label for="first_integer">Result</label>
-                                            <input type="number" class="form-control" id="result" name="result" value="<?php echo $result;?>">
+                                            <input type="text" class="form-control" id="result" name="result" value="<?php echo $result;?>" readonly>
                                         </div>
                                         
                                     </div>
