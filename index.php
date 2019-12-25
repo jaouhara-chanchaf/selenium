@@ -51,12 +51,12 @@
                                 <form role="form">
                                     <div class="card-body">
                                         <div class="form-group">
-                                            <label for="nom">First integer</label>
-                                            <input type="number" class="form-control" id="nom" placeholder="">
+                                            <label for="first_integer">First integer</label>
+                                            <input type="number" class="form-control" id="first_integer" placeholder="">
                                         </div>
                                         <div class="form-group">
-                                            <label for="categorie">Operation</label>
-                                            <select class="form-control" id="categorie">
+                                            <label for="operation">Operation</label>
+                                            <select class="form-control" id="operation">
                                                 <option value="plus">+</option>
                                                 <option value="minus">-</option>
                                                 <option value="mult">*</option>
@@ -64,8 +64,8 @@
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label for="nom">Second integer</label>
-                                            <input type="number" class="form-control" id="nom" placeholder="">
+                                            <label for="second_integer">Second integer</label>
+                                            <input type="number" class="form-control" id="second_integer" placeholder="">
                                         </div>
                                     </div>
                                     <!-- /.card-body -->
