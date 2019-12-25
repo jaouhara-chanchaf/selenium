@@ -16,7 +16,9 @@
         $result = $first_integer*$second_integer;
         break;
     case 'div':
+        if ($second_integer != 0)
         $result = $first_integer/$second_integer;
+        else $result = 'infinity';
         break;
     }
     
